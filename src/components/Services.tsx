@@ -1,4 +1,4 @@
-import { Cake, Heart, Briefcase, Music, Home, Sparkles } from 'lucide-react';
+import { Cake, Heart, Briefcase, Home, Sparkles } from 'lucide-react';
 
 export default function Services() {
   const services = [
@@ -19,12 +19,6 @@ export default function Services() {
       title: 'Corporate Events',
       description: 'Product launches, seminars, team parties, and professional gatherings.',
       color: 'from-blue-400 to-indigo-400'
-    },
-    {
-      icon: Music,
-      title: 'Concerts & Festivals',
-      description: 'Stage setup, sound systems, and crowd management for large-scale events.',
-      color: 'from-purple-400 to-pink-400'
     },
     {
       icon: Home,

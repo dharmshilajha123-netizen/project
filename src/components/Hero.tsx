@@ -35,19 +35,6 @@ export default function Hero() {
           </button>
         </div>
 
-        <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 animate-fade-in">
-          {[
-            { number: '500+', label: 'Events Organized' },
-            { number: '300+', label: 'Happy Clients' },
-            { number: '50+', label: 'Team Members' },
-            { number: '10+', label: 'Years Experience' }
-          ].map((stat, index) => (
-            <div key={index} className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-amber-600 mb-2">{stat.number}</div>
-              <div className="text-sm md:text-base text-gray-600">{stat.label}</div>
-            </div>
-          ))}
-        </div>
       </div>
     </section>
   );

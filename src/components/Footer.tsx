@@ -70,8 +70,8 @@ export default function Footer() {
               <li className="hover:text-amber-500 transition-colors cursor-pointer">Birthday Parties</li>
               <li className="hover:text-amber-500 transition-colors cursor-pointer">Weddings</li>
               <li className="hover:text-amber-500 transition-colors cursor-pointer">Corporate Events</li>
-              <li className="hover:text-amber-500 transition-colors cursor-pointer">Concerts</li>
               <li className="hover:text-amber-500 transition-colors cursor-pointer">Private Gatherings</li>
+              <li className="hover:text-amber-500 transition-colors cursor-pointer">Custom Events</li>
             </ul>
           </div>
 
@@ -80,15 +80,15 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-amber-500 flex-shrink-0 mt-0.5" />
-                <span className="text-sm">dharmshilajha123@gmail.com</span>
+                <span className="text-sm">eventcraft10@gmail.com</span>
               </li>
               <li className="flex items-start gap-3">
                 <Phone className="w-5 h-5 text-amber-500 flex-shrink-0 mt-0.5" />
-                <span className="text-sm">+91 98765 43210</span>
+                <span className="text-sm">+91 9013690498</span>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-amber-500 flex-shrink-0 mt-0.5" />
-                <span className="text-sm">Mumbai, Maharashtra, India</span>
+                <span className="text-sm">New Delhi, Delhi, India</span>
               </li>
             </ul>
           </div>

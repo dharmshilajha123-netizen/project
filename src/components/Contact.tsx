@@ -34,7 +34,7 @@ Message:
 ${formData.message}
     `.trim();
 
-    const mailtoLink = `mailto:dharmshilajha123@gmail.com?subject=Event Inquiry from ${encodeURIComponent(formData.name)}&body=${encodeURIComponent(emailBody)}`;
+    const mailtoLink = `mailto:eventcraft10@gmail.com?subject=Event Inquiry from ${encodeURIComponent(formData.name)}&body=${encodeURIComponent(emailBody)}`;
 
     window.location.href = mailtoLink;
 
@@ -88,7 +88,7 @@ ${formData.message}
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">Email</h4>
-                  <p className="text-gray-600">dharmshilajha123@gmail.com</p>
+                  <p className="text-gray-600">eventcraft10@gmail.com</p>
                 </div>
               </div>
 
@@ -98,7 +98,7 @@ ${formData.message}
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">Phone</h4>
-                  <p className="text-gray-600">+91 98765 43210</p>
+                  <p className="text-gray-600">+91 9013690498</p>
                 </div>
               </div>
 
@@ -108,7 +108,7 @@ ${formData.message}
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">Office</h4>
-                  <p className="text-gray-600">Mumbai, Maharashtra, India</p>
+                  <p className="text-gray-600">New Delhi, Delhi, India</p>
                 </div>
               </div>
             </div>
@@ -169,7 +169,7 @@ ${formData.message}
                     value={formData.phone}
                     onChange={handleChange}
                     className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-amber-600 focus:ring-2 focus:ring-amber-200 outline-none transition-all"
-                    placeholder="+91 98765 43210"
+                    placeholder="+91 9013690498"
                   />
                 </div>
               </div>
